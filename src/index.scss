@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Sora", sans-serif;
+
+  .hero {
+    position: relative;
+    background: url("./assets/images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(105.31deg, #275336 -3.2%, #5D7C3F 108.38%);
+      // opacity: ;
+      z-index: 1;
+    }
+
+  }
+}
