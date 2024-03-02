@@ -11,7 +11,7 @@ const Hero = () => {
             <h1 className="text-text font-extrabold text-6xl leading-[84px] mb-5">
               Empower Your Wellness Journey With Lipton Tea
             </h1>
-            <p className="text-[#E7E6E6] mb-12 text-lg w-full lg:w-10/12 leading-[30px]">
+            <p className="text-[#E7E6E6] mb-12 text-xl w-full lg:w-10/12 leading-[30px]">
               Elevate your well-being one cup at a time. Lipton's exceptional
               teas are crafted to nourish your body and soul. Embrace the
               goodness, embrace vitality.

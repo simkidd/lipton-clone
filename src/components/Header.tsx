@@ -19,8 +19,8 @@ const menuItem2: Menu[] = [
 const Header = () => {
   return (
     <div className="w-full fixed z-10">
-      <div className="container mx-auto px-2 flex items-center justify-center py-7 gap-12">
-        <ul className="flex items-center gap-12">
+      <div className="container mx-auto px-2 flex items-center  py-7 gap-12">
+        <ul className="flex items-center gap-12 w-4/5 justify-end">
           {menuItem1.map(({ name, href }, i) => (
             <li key={i}>
               <a
@@ -32,7 +32,7 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <div className="size-[62px]">
+        <div className="size-[62px] w-1/6">
           <a href="">
             <img
               src={Logo}
@@ -41,7 +41,7 @@ const Header = () => {
             />
           </a>
         </div>
-        <ul className="flex items-center gap-12">
+        <ul className="flex items-center gap-12 w-4/5">
           {menuItem2.map(({ name, href }, i) => (
             <li key={i}>
               <a
