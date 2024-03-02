@@ -16,17 +16,17 @@ const Hero = () => {
               teas are crafted to nourish your body and soul. Embrace the
               goodness, embrace vitality.
             </p>
-            <div className="flex items-center gap-8 ">
-              <Button className="bg-white py-4 px-9 border-white rounded-lg hover:bg-gray-200">
+            <div className="flex items-center gap-8 flex-wrap">
+              <Button className="bg-white py-4 px-9 border-white rounded-lg hover:bg-gray-200 w-full lg:w-fit">
                 Click To Buy Now
               </Button>
-              <Button className="py-4 px-9 border border-white rounded-lg text-white hover:bg-white hover:text-text5 transition duration-300 ease-in-out">
+              <Button className="py-4 px-9 border border-white rounded-lg text-white hover:bg-white hover:text-text5 transition duration-300 ease-in-out w-full  lg:w-fit">
                 Join The Tea Club
               </Button>
             </div>
           </div>
-          <div>
-            <div className="w-[555px]">
+          <div className="flex md:justify-center">
+            <div className="max-w-[555px] w-full">
               <img
                 src={HeroImg}
                 alt="hero-img"

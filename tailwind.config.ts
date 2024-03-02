@@ -13,6 +13,7 @@ export default {
         text7: "#609230",
         text8: "#656464",
         joinBg: "#FDB343",
+        overlayBg: "#0000004b"
       },
     },
   },

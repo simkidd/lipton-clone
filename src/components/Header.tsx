@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/images/lipton-logo.png";
 
 interface Menu {
@@ -23,12 +24,12 @@ const Header = () => {
         <ul className="flex items-center gap-12 w-4/5 justify-end">
           {menuItem1.map(({ name, href }, i) => (
             <li key={i}>
-              <a
-                href={href}
+              <Link
+                to={href}
                 className="uppercase font-semibold text-base text-white hover:text-text5"
               >
                 {name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -44,12 +45,12 @@ const Header = () => {
         <ul className="flex items-center gap-12 w-4/5">
           {menuItem2.map(({ name, href }, i) => (
             <li key={i}>
-              <a
-                href={href}
+              <Link
+                to={href}
                 className="uppercase font-semibold text-base text-white hover:text-text5"
               >
                 {name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
