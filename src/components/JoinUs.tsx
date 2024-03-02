@@ -14,7 +14,7 @@ const JoinUs = () => {
 
         <form className="flex items-center gap-5 flex-col lg:flex-row lg:w-[694px] w-full mx-auto">
           <input type="text" placeholder="Enter your email address" className="py-4 px-4 w-full lg:w-11/12 rounded-xl focus:outline-text" />
-          <Button className="py-4 px-5 rounded-lg bg-gradient text-white transition duration-300 ease-in-out w-1/3">
+          <Button className="py-4 px-5 rounded-lg bg-gradient text-white transition duration-300 ease-in-out md:w-1/3">
             Click To Join
           </Button>
         </form>

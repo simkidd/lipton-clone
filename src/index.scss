@@ -24,3 +24,15 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  background: linear-gradient(105.31deg, #275336 -3.2%, #5D7C3F 108.38%);
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  &::after{
+    color: white;
+    font-size: 24px;
+  }
+}
