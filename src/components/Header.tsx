@@ -84,7 +84,7 @@ const Header = () => {
         </ul>
       </div>
       {/* mobile nav */}
-      <div className="container mx-auto px-2 flex items-center justify-between bg-white shadow-md md:shadow-none py-2 lg:hidden">
+      <div className="container mx-auto px-2 flex items-center justify-between bg-white shadow-md md:shadow-none py-4 lg:hidden">
         <div className="size-[52px] z-[1]">
           <AnchorLink href="#home">
             <img
@@ -99,7 +99,7 @@ const Header = () => {
         </button>
 
         <ul
-          className={`absolute top-[68px] w-full h-[calc(100vh-68px)] bg-text7 flex flex-col items-end justify-center gap-6 px-8 transition duration-500 ease-in-out ${
+          className={`absolute top-[84px] w-full h-[calc(100vh-84px)] bg-text7 flex flex-col items-end justify-center gap-6 px-8 transition duration-500 ease-in-out ${
             showMenu ? "left-0" : "-left-full"
           }`}
         >
