@@ -1,12 +1,12 @@
-import React from "react";
-import Button from "./Button";
 import HeroImg from "../assets/images/hero-img.png";
+import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero relative">
+      <div className="bg-gradient flex items-center justify-center absolute top-0 w-full h-full mix-blend-lighten "></div>
       <div className="container h-full mx-auto px-2 flex items-center pt-[132px] pb-[101px]">
-        <div className="grid lg:grid-cols-2 gap-[90px]">
+        <div className="grid lg:grid-cols-2 gap-[90px] z-[1]">
           <div className="flex flex-col justify-center">
             <h1 className="text-text font-extrabold text-6xl leading-[84px] mb-5">
               Empower Your Wellness Journey With Lipton Tea

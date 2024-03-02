@@ -3,7 +3,7 @@ import Play from "../assets/images/play.png";
 
 const GreenTeaVideo = () => {
   return (
-    <div className="w-full py-[50px]">
+    <div className="w-full py-[50px]" id="recipes">
       <div className="container mx-auto px-2">
         <h2 className="text-text4 text-[40px] leading-[60px] font-semibold mb-6 text-center ">
           How To Make Green Tea

@@ -1,9 +1,8 @@
-import React from "react";
 import Button from "./Button";
 
 const LoveHeart = () => {
   return (
-    <div className="py-[50px]">
+    <div className="py-[50px]" id="health">
       <div className="container mx-auto px-2 flex flex-col items-center">
         <h2 className="text-[40px] text-text4 mb-6 flex items-center gap-5 leading-[60px] text-center">
           <svg
@@ -79,7 +78,7 @@ const LoveHeart = () => {
           guidelines.*
         </span>
 
-        <Button className="py-4 px-9 borde rounded-lg bg-gradient text-white">
+        <Button className="py-4 px-5 rounded-lg bg-gradient text-white hover:scale-[1.02] transition duration-300 ease-in-out ">
           Click to Learn More
         </Button>
       </div>

@@ -14,8 +14,8 @@ const DoubleGoodness = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="h-[279px] w-[320px] absolute lg:-bottom-[2rem] lg:-right-[6.5rem] -bottom-8 -right-16">
-            <img src={Pack} alt="pack" className="w-full h-full object-cover" />
+          <div className="h-[279px] absolute lg:-bottom-[2rem] lg:-right-[3rem]  -bottom-8 -right-2">
+            <img src={Pack} alt="pack" className="w-full h-full object-contain" />
           </div>
         </div>
         <div className="relative">
@@ -29,7 +29,7 @@ const DoubleGoodness = () => {
             powerful, commitment to your well-being.
           </p>
 
-          <Button className="py-4 px-9 borde rounded-lg bg-gradient text-white">
+          <Button className="py-4 px-5 rounded-lg bg-gradient text-white hover:scale-[1.02] transition duration-300 ease-in-out">
             Learn More
           </Button>
         </div>

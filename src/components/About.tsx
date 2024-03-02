@@ -3,10 +3,10 @@ import Image from '../assets/images/Group 6.png'
 
 const About = () => {
   return (
-    <div className='w-full py-[50px]'>
+    <div className='w-full py-[50px]' id="about-us">
       <div className='container mx-auto px-2 grid lg:grid-cols-2 gap-[100px]'>
         <div className='flex md:justify-center'>
-          <div className='overflow-hidden h-[639px] w-full max-w-[575px] rounded-[20px]'>
+          <div className='overflow-hidden lg:h-[639px] w-full max-w-[575px] rounded-[20px]'>
             <img src={Image} alt="image" className='w-full h-full object-cover' />
           </div>
         </div>
