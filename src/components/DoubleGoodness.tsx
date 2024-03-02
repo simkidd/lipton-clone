@@ -6,7 +6,7 @@ const DoubleGoodness = () => {
   return (
     <div className="w-full pb-[80px] pt-[100px]">
       <div className="container mx-auto px-2 grid lg:grid-cols-2 gap-[100px]">
-        <div className="relative flex md:justify-center">
+        <div className="relative flex md:justify-center overflow-hidden">
           <div className="overflow-hidden h-[639px] max-w-[575px] rounded-[20px] w-full">
             <img
               src={Woman}
