@@ -1,4 +1,3 @@
-import React from "react";
 import Button from "./Button";
 import HeroImg from "../assets/images/hero-img.png";
 
