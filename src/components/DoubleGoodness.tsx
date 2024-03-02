@@ -14,7 +14,7 @@ const DoubleGoodness = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="h-[279px] w-[320px] absolute lg:-bottom-[2rem] lg:-right-[6.5rem] -bottom-8 -right-16">
+          <div className="h-[279px] absolute lg:-bottom-[2rem] lg:-right-[6.5rem] -bottom-8 -right-16">
             <img src={Pack} alt="pack" className="w-full h-full object-cover" />
           </div>
         </div>
